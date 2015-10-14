@@ -6,7 +6,6 @@
   "license": "MIT",
   "scripts": {
     "start": "scripts/run",
-    "test": "mocha -R spec --compilers js:babel/register --recursive",
     "postinstall": "scripts/precompile"
   },
   "dependencies": {
