@@ -1,0 +1,28 @@
+{
+  "name": "koa-multi",
+  "version": "0.0.0",
+  "repository": "tejasmanohar/koa-multi",
+  "author": "Tejas Manohar <me@tejas.io>",
+  "license": "MIT",
+  "scripts": {
+    "start": "scripts/run",
+    "test": "mocha -R spec --compilers js:babel/register --recursive",
+    "postinstall": "scripts/precompile"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.8.25",
+    "co-body": "0.0.1",
+    "debug": "*",
+    "koa": "~0.6.1",
+    "koa-logger": "~1.2.1",
+    "koa-resource-router": "^0.3.3",
+    "xml-object": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "mocha": "*",
+    "nodemon": "^1.7.1",
+    "should": "*",
+    "supertest": "~1.1.0"
+  }
+}
