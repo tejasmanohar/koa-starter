@@ -11,18 +11,11 @@
   },
   "dependencies": {
     "babel-runtime": "^5.8.25",
-    "co-body": "0.0.1",
-    "debug": "*",
     "koa": "~0.6.1",
-    "koa-logger": "~1.2.1",
-    "koa-resource-router": "^0.3.3",
-    "xml-object": "^0.1.0"
+    "koa-logger": "~1.2.1"
   },
   "devDependencies": {
     "babel": "^5.8.23",
-    "mocha": "*",
-    "nodemon": "^1.7.1",
-    "should": "*",
-    "supertest": "~1.1.0"
+    "nodemon": "^1.7.1"
   }
 }
